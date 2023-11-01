@@ -1,0 +1,116 @@
+.from-one {
+    display: inline-flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 445px;
+    align-items: center;
+    gap: 1rem;
+    align-content: center;
+    margin-left: 8rem;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    justify-content: center;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+.form-submit {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.form-info {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.form-info input {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.btn {
+    background: #e6e600;
+    color: #000;
+    align-self: stretch;
+    border-radius: 23px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    border-color: transparent;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    background: #000;
+    width: 413px;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.contact-form h2 {
+    padding: 1rem 2.5rem;
+}
+
+.contact-info {
+    padding: 1rem 2.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-info li {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info svg {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+
+}
+
+.contact-info ul {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.total-info {
+    display: inline-flex;
+}
+
+.left-side {
+    height: 100vh;
+    flex-shrink: 0;
+    width: 25%;
+    background: linear-gradient(180deg, #FF3 0%, rgba(23, 23, 2, 0.24) 63.02%, rgba(255, 255, 51, 0.00) 100%);
+}
